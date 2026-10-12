@@ -1,0 +1,8 @@
+/build/
+/.gradle/
+/.kotlin/
+/tray/trueguard-tray
+/tray/trueguard-tray.exe
+/build-windows/
+/winlauncher/TrueGuard.exe
+/local.properties

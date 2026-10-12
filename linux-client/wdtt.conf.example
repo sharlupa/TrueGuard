@@ -1,0 +1,18 @@
+# Конфиг wdtt-client: ключи = имена флагов, флаги в командной строке важнее.
+# Запуск: wdtt-client -c wdtt.conf
+
+peer = 203.0.113.10:56000
+# одна или несколько ссылок/хешей VK-звонков через запятую
+vk = https://vk.com/call/join/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+password = ваш_пароль_подключения
+
+# proxy — SOCKS5/HTTP на 127.0.0.1:1080 без root; tun — весь IPv4 системы (sudo)
+mode = proxy
+# proxy = 127.0.0.1:1080
+
+# Сокеты клиента мимо другого VPN (например, hysteria) — по интерфейсу маршрута по умолчанию
+# bind-iface = auto
+
+# n = 24
+# obfs = audio
+# captcha-mode = auto
